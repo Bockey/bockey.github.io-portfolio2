@@ -1,0 +1,91 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(28, 28, 28);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h5{
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: rgb(45, 42, 46);
+}
+h1{
+    background-color: rgb(96, 90, 97);
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projects-cards{
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.card{
+    max-width: 350px;
+    padding: 0;
+    margin: 1rem;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    box-shadow: 10px 0px 13px -7px rgb(28, 28, 28), -10px 0px 13px -7px rgb(28, 28, 28);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 2rem;
+}
+h5.card-title{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.card-img-top{
+   height: 200px;
+}
+.btn-light{
+    background-color: #fff;
+}
+.accordion{
+    width: 100%;
+}
+.accordion-button{
+    width: 100%;
+    background-color: rgb(96, 90, 97) !important;
+    color: #fff !important;
+    margin-top: 2rem;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button::after{
+    filter: saturate(0%) invert(180%) contrast(300) !important;
+}
+.accordion-body{
+    border: 3px solid rgb(96, 90, 97) !important;
+}
+footer{
+   margin-top: auto;
+   text-align: center;
+   padding: 1rem;
+}
+footer a{
+    color: rgb(45, 42, 46);
+    text-decoration: none;
+}
+footer a:hover{
+    color: unset;
+    opacity: 0.7;
+}
